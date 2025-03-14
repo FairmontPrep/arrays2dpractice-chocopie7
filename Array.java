@@ -61,7 +61,7 @@ public class Array
 	int[][] a = new int[row][column];
 	for (int i=0; i<row; i++){
 		for (int j=0; j<column; j++){
-			a[j][i]=count;
+			a[i][j]=count;
 			count++;
 		}
 	}
